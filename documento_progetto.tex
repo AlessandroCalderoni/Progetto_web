@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc} % lavora in utf-8
+
+
+\begin{document}
+
+  \title{Documento applicazione Web}
+  \author{Gioacchino Castorio, Alessandro Calderoni, Antonio Tuzi, Marino Pavone}
+  \maketitle
+
+  %==============================
+  \section{Scopo principale}
+  % realizzare app social network tema gaming:
+    % commento di videogiochi, share di esperienze (immagini, video?)
+    % si possono condividere difficolta e fare domande a cui qualcuno può rispondere (categorizzazione in base al gioco e alla console [eventuale])
+
+    L'idea del progetto è quella di creare un social network dall'interfaccia relativamente semplice e accessibile a tutti!!\\
+    \noindent Il tema scelto è quello relativo al gaming: si parlerà quindi di esperienze relative ai videogiochi, condivisione di immagini e video o anche semplicemente un commento su un particolare momento.\\
+    \noindent Lo scopo principale del progetto è quindi quello di creare un punto di ritrovo per gli appassionati di gaming che sia anche un modo per conoscere nuove persone,videogiochi e in generale comunicare con gli altri utenti.\\
+
+    Oltre allo sharing di esperienze l'altro punto focale del progetto è quello relativo alla comunicazione e partecipazione dell'intera community nella risoluzione di un'eventuale problema e/o quesito sottoposto dal singolo utente tramite apposite sezioni di help nel quale inserire le proprie richieste.Queste particolari sezioni sono controllate da utenti moderatori e dall'admin, che regolano il flusso di risposte evitando flame e situazioni spiacevoli.
+  %==============================
+
+  \newpage
+
+  %==============================
+  \section{Attori coinvolti e obiettivi di ognuno}
+  L'applicazione gestirà, essenzialmente, 3 classi di utenza:
+
+  \begin{itemize}
+
+    %\\\\\\\\\\\\\\\\\\\\\\\\\
+    \item utente non registrato:
+    \begin{itemize}
+      \item visualizza le pagine di gamer [vedi sotto] (contenuti indicati come pubblici, anche commentati)
+      \item non ha altre libertà se non la navigazione in un area pubblica (niente post, commenti, no accesso ad area help)
+    \end{itemize}
+    %\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    %\\\\\\\\\\\\\\\\\\\\\\\\\
+    \item gamer (utente registrato comune):
+    \begin{itemize}
+      \item crea una vetrina [anagrafica, console preferite, giochi posseduti]
+      \item post sulla propria bacheca
+      \item può seguire un altro gamer
+      \item può commentare i post di un altro gamer
+      \item può fare domande nella sezione di help e rispondere agli altri utenti registrati (risposte valutate dagli altri gamer)
+    \end{itemize}
+    %\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    %\\\\\\\\\\\\\\\\\\\\\\\\\
+    \item pro (utente admin):
+    \begin{itemize}
+      \item tutti i pro sono pari (nelle votazioni)
+      \item riceve notifiche per le nuove domande in un'indicata categoria dell'help
+      \item ha possibilità di cancellare modificare/cancellare post/domande/commenti/risposte di chiunque
+      \item se la maggioranza assoluta degli admin è favorevole (50\%+ 1) un utente viene elevato al rango di admin
+    \end{itemize}
+    %\\\\\\\\\\\\\\\\\\\\\\\\\
+
+  \end{itemize}
+  % 3 classi di utenza:
+    % non registrato:
+      % visualizza le pagine di gamer [vedi sotto] che lo permettono
+      % legge i commenti ai post dei gamer
+      % non può fare alcun post nè accedere all'area delle risposte
+    % gamer: utente comune
+      % crea una vetrina [anagrafica, console preferite, giochi posseduti]
+      % post sulla propria bacheca
+      % segui un altro gamer
+      % commenta i post di un altro gamer
+      % fai domande nella sezione di help e rispondi agli altri (risposte valutate dagli altri gamer)
+      % un utente con un elevato numero di domande con valutazione positiva:
+        % è notificato agli admin
+        %può essere candidato a pro [vedi sotto]
+    % pro: moderatore
+      % può essere moderatore di una sola categoria di help, ma per una categoria esistono più moderatori
+      % riceve le notifiche delle nuove domande/risposte della categoria
+        % modifica o cancella
+    % pwner: admin
+      % tutte le funzionalità di un pro (si può scegliere una o più categorie da moderare)
+      % ha possibilità di cancellare modificare / cancellare post/domande/commenti/risposte di chiunque e in qualunque contesto
+      % può bannare (cancellare) gli utenti
+      % se la maggioranza assoluta degli admin è favorevole (50% + 1) un utente viene elevato al rango di admin o di moderatore
+
+
+    % !!! SCRIVI IL TESTO QUI !!!
+
+
+  %==============================
+
+
+\end{document}

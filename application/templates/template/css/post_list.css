@@ -1,0 +1,162 @@
+div.post {
+
+    border: solid 1.5px black;
+
+    margin: 1em;
+
+    box-shadow: 10px 10px 5px #888;
+
+    background-color: #FFFFFF;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+div.post span.post-user-name {
+    
+    font-size: 2em;
+    color: #388dce;
+    
+}
+
+div.post span.post-date {
+    
+    font-size: 1em;
+    color: gray;
+}
+
+div.post img.imm-profilo-post {
+
+    height: 65px;
+    width: 65px;
+
+    border: solid 1px black;
+
+    margin: 5px;
+    padding: 3px;
+
+    background-color: rebeccapurple;
+
+}
+
+div.post img.imm-post {
+
+    height: 200px;
+    width: 100%;
+
+    border: solid 1px black;
+}
+
+div.post textarea.comment-textarea {
+
+    border: solid 1px black;
+
+    resize: none;
+
+
+}
+
+div.post div.row {
+
+    margin-bottom: 10px;
+
+}
+
+#form-newpost {
+
+    padding: 1em;
+    margin-top: 1em;
+
+    background-color: #DAEAFF;
+
+    border: solid 1px black;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+#new-post-text {
+
+    resize: none;
+    width: 100%;
+    height: 5em;
+
+}
+
+#new-post-img {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    display: block;
+
+}
+
+p.post-text {
+    display: block;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+}
+
+
+
+/* commenti */
+
+div.box-comments {
+
+    border: solid 1px black;
+    background-color: azure;
+    overflow: scroll;
+    height: 150px;
+    padding: 10px;
+
+    overflow-x: hidden;
+}
+
+div.comment {
+
+    margin: 5px;
+    border-bottom: dashed 1px gray;
+    padding: 5px;
+
+
+
+}
+
+div.comment img.imm-profilo-comm {
+
+    height: 60px;
+    width: 60px;
+    border: solid 2px black;
+    margin-left: 10px;
+
+}
+
+div.comment span.post-date {
+
+    font-size: 1em;
+    color: gray;
+}
+
+div.comment span.comment-user-name {
+
+    font-size: 1.7em;
+    color: #388dce;
+
+}
+
+div.comment p.text {
+    font-family: monospace;
+    margin: 5px;
+    background-color: rgb(226, 241, 241);
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}

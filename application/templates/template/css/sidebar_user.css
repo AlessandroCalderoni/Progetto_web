@@ -1,0 +1,64 @@
+div.sidebar {
+
+    background-color: #daeaff;
+    border: none;
+
+    border-right: solid 1px black;
+
+}
+
+#user-data{
+
+    padding: 1em;
+    margin-top: 1em;
+
+    background-color: #f8ffff;
+
+    border: solid 1px black;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+#user-image-sidebar {
+
+    width: 125px;
+    height: 125px;
+
+    display: block;
+    margin: auto;
+
+    border: solid 1px black;
+
+    background-color: #FFFFFF;
+
+}
+
+#user-data span.anag {
+
+    font-style: italic;
+
+    color: gray;
+
+}
+
+#user-data span.anag-info {
+
+    font-weight: bold;
+
+}
+#admin-advise{
+
+    display: block;
+    margin: auto;
+
+    padding: 5px;
+    background-color: green;
+
+    color: #f8f8f8;
+
+    text-align: center;
+}
+

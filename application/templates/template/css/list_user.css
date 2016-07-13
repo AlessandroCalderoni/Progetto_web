@@ -1,0 +1,48 @@
+
+div.users {
+
+    border: solid 1.5px black;
+
+    margin: 1em;
+
+    box-shadow: 10px 10px 5px #888;
+
+    background-color: #FFFFFF;
+
+    padding: 5px;
+
+}
+
+div.users img.profile-img {
+
+    width: 100px;
+    height: 100px;
+
+    border: solid 1px black;
+
+    display: block;
+
+    margin: 0 auto;
+}
+
+div.users p.user-name {
+
+    font-size: 2em;
+    color: #388dce;
+
+    text-align: center;
+
+    margin-bottom: 0;
+
+}
+
+div.users p.user-email {
+
+    font-size: 1em;
+    color: gray;
+
+    text-align: center;
+
+    padding: 0;
+}
+
